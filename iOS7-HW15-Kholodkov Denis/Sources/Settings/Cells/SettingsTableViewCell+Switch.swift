@@ -6,7 +6,7 @@
 //
 import UIKit
 
-class SettingsTableViewCellSwitch: UITableViewCell, ViewElementProtocol {
+class SettingsTableViewCellSwitch: BaseCellUIElements {
 
     static let identifier = "SettingsTableViewCellSwitch"
 

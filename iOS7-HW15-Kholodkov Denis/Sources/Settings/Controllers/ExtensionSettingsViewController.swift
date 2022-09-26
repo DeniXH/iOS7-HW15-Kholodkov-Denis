@@ -10,25 +10,24 @@ import UIKit
 extension SettingsViewController: UITableViewDataSource, UITableViewDelegate {
     
     func numberOfSections(in tableView: UITableView) -> Int {
-        models.count
+        modelsCells.count
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return models[section].options.count
+        return modelsCells[section].options.count
+    }
+
+    func modelSwitch<T: UITableViewCell>(cell: T,
+                                         accessoryType: UITableViewCell.AccessoryType,
+                                         _ indexPath: IndexPath,
+                                         _ tableView: UITableView) -> T {
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "\(T.self)", for: indexPath) as? T
+        else { return UITableViewCell() as? T ?? cell }
+        return cell
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let model = models[indexPath.section].options[indexPath.row]
-        
-        
-        func modelSwitch<T: UITableViewCell>(cell: T,
-                                             accessoryType: UITableViewCell.AccessoryType,
-                                             _ indexPath: IndexPath,
-                                             _ tableView: UITableView) -> T {
-            guard let cell = tableView.dequeueReusableCell(withIdentifier: "\(T.self)", for: indexPath) as? T
-            else { return UITableViewCell() as? T ?? cell }
-            return cell
-        }
+        let model = modelsCells[indexPath.section].options[indexPath.row]
         
         switch model.self {
         case .staticCell(let model):
@@ -52,7 +51,7 @@ extension SettingsViewController: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
-        let type = models[indexPath.section].options[indexPath.row]
+        let type = modelsCells[indexPath.section].options[indexPath.row]
         navigationController?.pushViewController(NextScreenController(), animated: true)
         switch type.self {
         case .staticCell(let model):

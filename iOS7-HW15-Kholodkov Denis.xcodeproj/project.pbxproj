@@ -12,16 +12,18 @@
 		920EE80E28CDBBE8006637EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 920EE80D28CDBBE8006637EB /* Assets.xcassets */; };
 		920EE81128CDBBE8006637EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 920EE80F28CDBBE8006637EB /* LaunchScreen.storyboard */; };
 		920EE82128CDEF0F006637EB /* SettinsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920EE82028CDEF0F006637EB /* SettinsView.swift */; };
-		920EE82328CDF0AB006637EB /* ViewInputDataProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920EE82228CDF0AB006637EB /* ViewInputDataProtocol.swift */; };
-		920EE82528CDF11C006637EB /* ControllerInputDataProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920EE82428CDF11C006637EB /* ControllerInputDataProtocol.swift */; };
-		920EE82728CE0300006637EB /* ViewElementProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920EE82628CE0300006637EB /* ViewElementProtocol.swift */; };
 		920EE82928CE128D006637EB /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920EE82828CE128D006637EB /* SettingsTableViewCell.swift */; };
+		928DC6C428E202990082FAA5 /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928DC6C328E202990082FAA5 /* BaseCell.swift */; };
+		928DC6C628E202D50082FAA5 /* CellSwitchOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928DC6C528E202D50082FAA5 /* CellSwitchOption.swift */; };
+		928DC6C828E203050082FAA5 /* RightNoteCellOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928DC6C728E203050082FAA5 /* RightNoteCellOption.swift */; };
+		928DC6CA28E2033A0082FAA5 /* RightNotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928DC6C928E2033A0082FAA5 /* RightNotificationCell.swift */; };
 		92AC54EF28CF863B0073B451 /* ModelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AC54EE28CF863B0073B451 /* ModelCell.swift */; };
 		92AC54F128CF98ED0073B451 /* SettingsTableViewCell+Switch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AC54F028CF98ED0073B451 /* SettingsTableViewCell+Switch.swift */; };
 		92AC54F328CF994C0073B451 /* SettingsTableViewCell+Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AC54F228CF994C0073B451 /* SettingsTableViewCell+Note.swift */; };
 		92AC54F528CF99760073B451 /* SettingsTableViewCell+Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AC54F428CF99760073B451 /* SettingsTableViewCell+Notification.swift */; };
 		92AC54F728D077C30073B451 /* ExtensionSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AC54F628D077C30073B451 /* ExtensionSettingsViewController.swift */; };
 		92AC54F928D078DA0073B451 /* NextScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AC54F828D078DA0073B451 /* NextScreenController.swift */; };
+		92B3C82628E1FC8C0056080F /* BaseCellUIElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B3C82528E1FC8C0056080F /* BaseCellUIElements.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,16 +34,18 @@
 		920EE81028CDBBE8006637EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		920EE81228CDBBE8006637EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		920EE82028CDEF0F006637EB /* SettinsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettinsView.swift; sourceTree = "<group>"; };
-		920EE82228CDF0AB006637EB /* ViewInputDataProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewInputDataProtocol.swift; sourceTree = "<group>"; };
-		920EE82428CDF11C006637EB /* ControllerInputDataProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerInputDataProtocol.swift; sourceTree = "<group>"; };
-		920EE82628CE0300006637EB /* ViewElementProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewElementProtocol.swift; sourceTree = "<group>"; };
 		920EE82828CE128D006637EB /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
+		928DC6C328E202990082FAA5 /* BaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCell.swift; sourceTree = "<group>"; };
+		928DC6C528E202D50082FAA5 /* CellSwitchOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellSwitchOption.swift; sourceTree = "<group>"; };
+		928DC6C728E203050082FAA5 /* RightNoteCellOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightNoteCellOption.swift; sourceTree = "<group>"; };
+		928DC6C928E2033A0082FAA5 /* RightNotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightNotificationCell.swift; sourceTree = "<group>"; };
 		92AC54EE28CF863B0073B451 /* ModelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelCell.swift; sourceTree = "<group>"; };
 		92AC54F028CF98ED0073B451 /* SettingsTableViewCell+Switch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SettingsTableViewCell+Switch.swift"; sourceTree = "<group>"; };
 		92AC54F228CF994C0073B451 /* SettingsTableViewCell+Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SettingsTableViewCell+Note.swift"; sourceTree = "<group>"; };
 		92AC54F428CF99760073B451 /* SettingsTableViewCell+Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SettingsTableViewCell+Notification.swift"; sourceTree = "<group>"; };
 		92AC54F628D077C30073B451 /* ExtensionSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionSettingsViewController.swift; sourceTree = "<group>"; };
 		92AC54F828D078DA0073B451 /* NextScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextScreenController.swift; sourceTree = "<group>"; };
+		92B3C82528E1FC8C0056080F /* BaseCellUIElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCellUIElements.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +88,6 @@
 		920EE81828CDBC5B006637EB /* Others */ = {
 			isa = PBXGroup;
 			children = (
-				920EE81228CDBBE8006637EB /* Info.plist */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -92,10 +95,8 @@
 		920EE81928CDBCED006637EB /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				920EE80428CDBBDE006637EB /* AppDelegate.swift */,
+				928DC6CB28E213B90082FAA5 /* App */,
 				AC7F227628D0B11B00AB0369 /* Settings */,
-				920EE81C28CDBF45006637EB /* View */,
-				920EE81D28CDBF4F006637EB /* Controller */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -103,6 +104,7 @@
 		920EE81A28CDBD0B006637EB /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				920EE81228CDBBE8006637EB /* Info.plist */,
 				920EE80D28CDBBE8006637EB /* Assets.xcassets */,
 				920EE80F28CDBBE8006637EB /* LaunchScreen.storyboard */,
 			);
@@ -113,31 +115,29 @@
 			isa = PBXGroup;
 			children = (
 				92AC54EE28CF863B0073B451 /* ModelCell.swift */,
+				928DC6C328E202990082FAA5 /* BaseCell.swift */,
+				928DC6C528E202D50082FAA5 /* CellSwitchOption.swift */,
+				928DC6C728E203050082FAA5 /* RightNoteCellOption.swift */,
+				928DC6C928E2033A0082FAA5 /* RightNotificationCell.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		920EE81C28CDBF45006637EB /* View */ = {
+		920EE81D28CDBF4F006637EB /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				920EE82228CDF0AB006637EB /* ViewInputDataProtocol.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		920EE81D28CDBF4F006637EB /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				920EE82428CDF11C006637EB /* ControllerInputDataProtocol.swift */,
+				920EE80828CDBBDE006637EB /* SettingsViewController.swift */,
+				92AC54F628D077C30073B451 /* ExtensionSettingsViewController.swift */,
+				920EE82028CDEF0F006637EB /* SettinsView.swift */,
 				92AC54F828D078DA0073B451 /* NextScreenController.swift */,
 			);
-			path = Controller;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		9224DBB728CE794200250519 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				920EE82628CE0300006637EB /* ViewElementProtocol.swift */,
+				92B3C82528E1FC8C0056080F /* BaseCellUIElements.swift */,
 				920EE82828CE128D006637EB /* SettingsTableViewCell.swift */,
 				92AC54F028CF98ED0073B451 /* SettingsTableViewCell+Switch.swift */,
 				92AC54F228CF994C0073B451 /* SettingsTableViewCell+Note.swift */,
@@ -146,14 +146,20 @@
 			path = Cells;
 			sourceTree = "<group>";
 		};
+		928DC6CB28E213B90082FAA5 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				920EE80428CDBBDE006637EB /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
 		AC7F227628D0B11B00AB0369 /* Settings */ = {
 			isa = PBXGroup;
 			children = (
+				920EE81D28CDBF4F006637EB /* Controllers */,
 				9224DBB728CE794200250519 /* Cells */,
 				920EE81B28CDBF32006637EB /* Model */,
-				920EE80828CDBBDE006637EB /* SettingsViewController.swift */,
-				92AC54F628D077C30073B451 /* ExtensionSettingsViewController.swift */,
-				920EE82028CDEF0F006637EB /* SettinsView.swift */,
 			);
 			path = Settings;
 			sourceTree = "<group>";
@@ -229,13 +235,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				92AC54F128CF98ED0073B451 /* SettingsTableViewCell+Switch.swift in Sources */,
-				920EE82728CE0300006637EB /* ViewElementProtocol.swift in Sources */,
-				920EE82528CDF11C006637EB /* ControllerInputDataProtocol.swift in Sources */,
-				920EE82328CDF0AB006637EB /* ViewInputDataProtocol.swift in Sources */,
+				92B3C82628E1FC8C0056080F /* BaseCellUIElements.swift in Sources */,
 				920EE82128CDEF0F006637EB /* SettinsView.swift in Sources */,
 				92AC54F728D077C30073B451 /* ExtensionSettingsViewController.swift in Sources */,
+				928DC6C628E202D50082FAA5 /* CellSwitchOption.swift in Sources */,
+				928DC6C428E202990082FAA5 /* BaseCell.swift in Sources */,
 				920EE82928CE128D006637EB /* SettingsTableViewCell.swift in Sources */,
+				928DC6C828E203050082FAA5 /* RightNoteCellOption.swift in Sources */,
 				92AC54F928D078DA0073B451 /* NextScreenController.swift in Sources */,
+				928DC6CA28E2033A0082FAA5 /* RightNotificationCell.swift in Sources */,
 				92AC54F528CF99760073B451 /* SettingsTableViewCell+Notification.swift in Sources */,
 				920EE80928CDBBDE006637EB /* SettingsViewController.swift in Sources */,
 				92AC54F328CF994C0073B451 /* SettingsTableViewCell+Note.swift in Sources */,
@@ -383,7 +391,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3L65F6AAP4;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "iOS7-HW15-Kholodkov Denis/Others/Info.plist";
+				INFOPLIST_FILE = "iOS7-HW15-Kholodkov Denis/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -410,7 +418,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3L65F6AAP4;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "iOS7-HW15-Kholodkov Denis/Others/Info.plist";
+				INFOPLIST_FILE = "iOS7-HW15-Kholodkov Denis/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";

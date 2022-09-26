@@ -7,7 +7,7 @@
 
 import UIKit
 
-class SettingsTableViewCell: UITableViewCell, ViewElementProtocol {
+class SettingsTableViewCell: BaseCellUIElements {
 
     static let identifier = "SettingsTableViewCell"
 
@@ -31,7 +31,7 @@ class SettingsTableViewCell: UITableViewCell, ViewElementProtocol {
         iconContainer.backgroundColor = nil
     }
 
-    public func configurate(with model: Cell) {
+    public func configurate(with model: BaseCell) {
         label.text = model.title
         iconImageView.image = model.icon
         iconContainer.backgroundColor = model.iconBackgroundColor

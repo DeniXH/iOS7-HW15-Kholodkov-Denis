@@ -7,7 +7,7 @@
 
 import UIKit
 
-class SettingsTableViewCellNote: UITableViewCell, ViewElementProtocol {
+class SettingsTableViewCellNote: BaseCellUIElements {
 
     static let identifier = "SettingsTableViewCellNote"
 

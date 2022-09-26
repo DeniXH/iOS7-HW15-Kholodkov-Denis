@@ -7,7 +7,7 @@
 
 import UIKit
 
-class NextScreenController: UIViewController {
+final class NextScreenController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

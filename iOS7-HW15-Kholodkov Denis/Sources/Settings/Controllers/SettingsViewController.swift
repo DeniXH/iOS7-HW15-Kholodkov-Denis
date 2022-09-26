@@ -12,7 +12,7 @@ class SettingsViewController: UIViewController {
     // MARK: - Properties
     
     var settingsView: SettingsView?
-    var models = [Section]()
+    var modelsCells = [Section]()
     
     override func loadView() {
         view = settingsView
@@ -23,7 +23,7 @@ class SettingsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Настройки"
-        configurate(&models)
+        modelsCells.append(contentsOf: Section.models)
         settingsView?.configureView(delegate: self, dataSource: self)
     }
 }

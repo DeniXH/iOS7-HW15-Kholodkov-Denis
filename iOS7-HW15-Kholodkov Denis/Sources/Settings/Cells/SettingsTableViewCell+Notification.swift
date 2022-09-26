@@ -7,7 +7,7 @@
 
 import UIKit
 
-class SettingsTableViewCellNotification: UITableViewCell, ViewElementProtocol {
+class SettingsTableViewCellNotification: BaseCellUIElements {
 
     static let identifier = "SettingsTableViewCellNotification"
 

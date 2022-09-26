@@ -14,9 +14,9 @@ var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         window = UIWindow()
-        let viewController = SettingsViewController()
-        viewController.settingsView = SettingsView()
-        let navigationController = UINavigationController(rootViewController: viewController)
+        let SettingsViewController = SettingsViewController()
+        SettingsViewController.settingsView = SettingsView()
+        let navigationController = UINavigationController(rootViewController: SettingsViewController)
         window?.rootViewController = navigationController
         window?.makeKeyAndVisible()
         return true

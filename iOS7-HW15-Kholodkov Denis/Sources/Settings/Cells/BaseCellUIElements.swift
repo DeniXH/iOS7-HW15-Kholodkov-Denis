@@ -1,35 +1,12 @@
 //
-//  ViewElementProtocol.swift
+//  BaseCellUIElements.swift
 //  iOS7-HW15-Kholodkov Denis
 //
-//  Created by Денис Холодков on 11.09.2022.
+//  Created by Денис Холодков on 26.09.2022.
 //
-
-import Foundation
 import UIKit
 
-protocol ViewElementProtocol: UITableViewCell {
-
-    func createIconContainer() -> UIView
-    func createIconImageView() -> UIImageView
-    func createlabel() -> UILabel // стандартная ячейка закончилась
-    func createComponentSwitch() -> UISwitch
-    func createRightLabel() -> UILabel
-    func createRightImageBack() -> UIView
-    func createRightIcon() -> UIImageView
-    func createLayout(_ iconContainer: UIView,
-                      _ iconImageView: UIImageView,
-                      _ label: UILabel)
-    func createLayoutSwitch(_ componentSwitch: UISwitch)
-    func createLayoutRightLabel(_ rightLabel: UILabel,
-                                _ iconContainer: UIView)
-    func createLayoutRightNotification(_ rightImageBack: UIView,
-                                       _ rightIcon: UIImageView)
-
-    
-}
-
-extension ViewElementProtocol {
+class BaseCellUIElements: UITableViewCell {
 
     func createIconContainer() -> UIView {
         let view = UIView()
